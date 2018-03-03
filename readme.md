@@ -32,7 +32,7 @@ Builds the production bundle and outputs it to `./dist`.
 ## Todo
 
 - [ ] Optimize svgs
-- [ ] Minify images
+- [x] Minify images
 - [ ] Handle static assets like fonts
 - [ ] Icon sprite support 🎈
 
