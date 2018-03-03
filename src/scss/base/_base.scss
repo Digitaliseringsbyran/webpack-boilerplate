@@ -1,0 +1,93 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: $sans-font-family;
+	font-weight: 300;
+	line-height: $line-height-4;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: palette(black, base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+strong,
+.strong { font-weight: $bold-font-weight }
+
+em, .em,
+i, .i { font-style: italic }
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+table {
+	width: 100%;
+	max-width: 100%;
+}
+
+th { 
+	vertical-align: bottom; 
+	text-align: left;
+}	
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+pre,
+code,
+kbd,
+samp {
+	font-family: $mono-font-family;
+}
+
+pre {
+	margin-top: 0;
+	overflow: auto;
+}
+
+sub,
+sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+}
+
+sub { bottom: -0.25em }
+sup { top: -0.5em }
+
+figcaption {
+	font-size: $h5;
+	font-style: italic;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+}
+
+input {
+	font-family: inherit;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1;
+	background: none;
+	appearance: none;
+	border: 0;
+	padding: 0;
+	border-radius: 0;
+}

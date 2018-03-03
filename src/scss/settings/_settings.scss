@@ -1,0 +1,95 @@
+// Spacing
+$space-1: .5rem;
+$space-2: 1rem;
+$space-3: 2rem;
+$space-4: 4rem;
+$space-5: 6rem;
+$space-6: 8rem;
+
+// Type-scale
+$h1: 3.5rem;
+$h1: 2.441rem;
+$h2: 1.953rem;
+$h3: 1.563rem;
+$h4: 1.25rem;
+$h5: 1rem;
+$h6: .85rem;
+
+$h1-sm: 3.5rem;
+$h2-sm: 2.441rem;
+$h3-sm: 1.953rem;
+$h4-sm: 1.563rem;
+$h5-sm: 1.25rem;
+$h6-sm: 1rem;
+
+// Typography
+$sans-font-family: "gt-pressura", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$mono-font-family: "gt-pressura-mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$line-height-1: 1;
+$line-height-2: 1.125;
+$line-height-3: 1.25;
+$line-height-4: 1.5;
+$letter-spacing: 1;
+$caps-letter-spacing: .2em;
+$bold-font-weight: 500;
+
+// Border
+$border-radius: 3px;
+
+
+//Colors
+$white    : #fff;
+$black    : #15161b;
+$grey     : #C3C7CB;
+$yellow 	: #FFC702;
+
+$palettes: (
+	grey: (
+		xx-light : lighten($grey, 20%),
+		x-light  : lighten($grey, 16%),
+		light    : lighten($grey, 10%),
+		base     : $grey,
+		dark     : darken($grey, 8%),
+		x-dark   : darken($grey, 24%)
+	),
+	yellow: (
+		xx-light : lighten($yellow, 20%),
+		x-light  : lighten($yellow, 16%),
+		light    : lighten($yellow, 10%),
+		base     : $yellow,
+		dark     : darken($yellow, 8%),
+		x-dark   : darken($yellow, 24%)
+	),
+	black: (
+		x-light  : lighten($black, 20%),
+		light    : lighten($black, 10%),
+		base     : $black,
+		dark     : darken($black, 10%)
+	)
+);
+
+// Darken
+$darken-1: rgba(0, 0, 0, .0625);
+$darken-2: rgba(0, 0, 0, .125);
+$darken-3: rgba(0, 0, 0, .25);
+
+// Widths
+$width-1: 24rem;
+$width-2: 32rem;
+$width-3: 48rem;
+$width-4: 64rem;
+
+// Container
+$container-max-width: 1280px;
+
+// Breakpoints
+$breakpoint-sm: 40em;
+$breakpoint-md: 73em;
+$breakpoint-lg: 80em;
+
+// Z-index
+$z1: 1;
+$z2: 2;
+$z3: 3;
+$z4: 4;
+$z5: 5;
