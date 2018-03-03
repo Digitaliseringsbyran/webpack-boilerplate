@@ -29,6 +29,12 @@ $ yarn build
 
 Builds the production bundle and outputs it to `./dist`.
 
+## Todo
+
+- [ ] Minify images and optimize svgs
+- [ ] Handle static assets like fonts
+- [ ] Icon sprite support 🎈
+
 ## License
 
 MIT © [Digitaliseringsbyrån](http://github.com/Digitaliseringsbyran)
